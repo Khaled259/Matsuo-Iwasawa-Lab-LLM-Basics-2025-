@@ -1,48 +1,34 @@
-# Matsuo-Iwasawa Lab — LLM Basics (2025)
+# Matsuo Lab: LLM Basics 2025 - Personal Record
 
-This repository contains teaching materials and examples for the Matsuo–Iwasawa Lab's "LLM Basics" course (2025). The goal is to provide a compact, hands-on introduction to large language models, prompt engineering, evaluation, and reproducible experiments.
+This repository contains my study notes, code implementations, and project work for the LLM Basics course (2025).
 
-## Contents
-- notebooks/ — Jupyter notebooks with demonstrations and exercises
-- examples/ — example scripts and small utilities
-- data/ — (optional) datasets or pointers to external data
-- src/ — source code and helper modules
-- experiments/ — reproducible experiment configs and logs
+## 📅 Progress Tracker
 
-> If any of these directories are not present yet, they can be added as we develop materials.
+| Module | Topic | Slides | Assignment/Code | Status |
+| :--- | :--- | :---: | :---: | :---: |
+| **Day 1** | Overview & Basics | [x] | [x] | ✅ Done |
+| **Day 2** | Prompting & RAG | [ ] | [ ] | 🚧 In Progress |
+| **Day 3** | Pre-training | [ ] | [ ] | |
+| **Day 4** | Scaling Laws | [ ] | [ ] | |
+| **Day 5** | LLM Architecture | [ ] | [ ] | |
+| **Day 6** | *Topic Not Public* | N/A | [ ] | |
+| **Day 7** | RLHF & Alignment | [ ] | [ ] | |
+| **Final** | Final Project (Day 8) | [ ] | [ ] | |
 
-## Getting started
-1. Clone the repository:
+## 🧠 Key Learnings
+### Prompting & RAG
+- Notes on Chain-of-Thought...
+- RAG implementation details...
 
-```bash
-git clone https://github.com/Khaled259/Matsuo-Iwasawa-Lab-LLM-Basics-2025-.git
-cd Matsuo-Iwasawa-Lab-LLM-Basics-2025-
-```
+### RLHF
+- Notes on PPO vs DPO...
 
-2. Create a Python virtual environment (recommended) and install dependencies if a requirements file is added:
+## 🛠️ Tech Stack
+- Python
+- PyTorch
+- Transformers (Hugging Face)
+- OpenAI API
+- Google Colab
 
-```bash
-python -m venv .venv
-source .venv/bin/activate  # on Windows use `.venv\Scripts\activate`
-# pip install -r requirements.txt  # uncomment when requirements.txt exists
-```
-
-3. Open notebooks in Jupyter or JupyterLab:
-
-```bash
-jupyter lab  # or jupyter notebook
-```
-
-## Contributing
-Contributions are welcome. Suggested workflow:
-- Open an issue describing the improvement or exercise you want to add
-- Create a branch with a descriptive name and open a pull request
-- Add tests or example outputs when appropriate
-
-Please follow any coding/style/contribution guidelines added to the repository.
-
-## License
-Add a LICENSE file to state the project's license. If unsure, discuss with the maintainers.
-
-## Contact
-For questions, open an issue or contact the repository owner: @Khaled259
+## ⚠️ Disclaimer
+This is a personal study record. Original lecture slides are property of Matsuo-Iwasawa Lab.
